@@ -1,6 +1,12 @@
 package com.niulipeng;
 
 /**
+ * 安装并破解IDEA
+ * 安装：解压到指定文件夹，找到bin下exe启动程序，选择免费进入界面
+ * 破解：将agent.jar文件放入解压的文件夹下，IDEA界面HELP->Edit Custom VM Option->然后添加如下参数：
+ * -javaagent:F:\idea\ideaIU-2019.2.3.win\ideaIU-2019.2.3.win\jetbrains-agent.jar
+ * 然后关闭IDEA,重启之后HELP->register->licenserver->输入以下地址：
+ * https://fls.jetbrains-agent.com。然后active即可。重启IDEA生效
  *  File-setting或者快捷行里的小扳手 设置字体等（勾选change by mouse） quick documentation
  *  手动导包 ALT+ENTRT 自动导包 Edit-Genneral-auto import(可以自动添加去除包)
  *  code Complition里的match case去掉勾选可以不区分大小写提示
