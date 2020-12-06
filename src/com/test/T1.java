@@ -19,18 +19,21 @@ public class T1 {
     }
 
     public static void main(String[] args) {
-        new Thread(new Runnable() {
-            T1 t = new T1();
-            @Override
-            public void run() {
-                t.m();
-            }
-        },"t1").start();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        flag = false;
+//        new Thread(new Runnable() {
+//            T1 t = new T1();
+//            @Override
+//            public void run() {
+//                t.m();
+//            }
+//        },"t1").start();
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        flag = false;
+        T1 t = new T1();
+        System.out.println(t);
+        System.out.println(t.toString());
     }
 }
