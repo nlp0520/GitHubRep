@@ -7,6 +7,6 @@ package com.niulipeng;
  * @Version:1.0
  */
     
-public class Person {
+public class Person extends Thread{
     private int age;
 }
